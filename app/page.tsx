@@ -27,6 +27,7 @@ const Home: NextPage = () => {
               width: "100%",
             }}
             autoPlay
+            controls
           />
         </div>
       </div>

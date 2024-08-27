@@ -41,9 +41,9 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint .",
     "remotion": "remotion studio",
     "render": "remotion render",
